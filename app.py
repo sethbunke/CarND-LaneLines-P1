@@ -140,8 +140,8 @@ test_image = mpimg.imread(img_path)
 result = pipeline(test_image)
 #plt.imshow(result)
 
-# import Image
+import Image
 
-# image = Image.open(test_image)
-# image.show() 
+image = Image.open(test_image)
+image.show() 
 
